@@ -1,0 +1,147 @@
+.s1{ 
+    width: 60px;
+    height: 60px;
+    background-color: red;
+   border-radius: 50%;
+   animation-name: s11;
+   animation-duration: 10s;
+   position: absolute; 
+   animation-fill-mode: forwards ;
+   animation-delay: 1s;
+}
+body{
+background-color: black; 
+width: 1320px;
+height: 600px;
+}
+@keyframes s11 {
+    0%{   left: 0;}
+    
+    100%{  background-color: yellow; left:  1300px ;  }
+}
+.s2{
+    width: 60px;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    background-color: orangered; 
+    position: absolute; 
+    border-radius: 50%;
+    animation: s22; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes s22{  
+    0% { right: 0;}
+    
+    100%{ right :1300px ; background-color: blue;  }
+}
+.s3{
+    width: 60px;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    background-color: blue; 
+    position: absolute; 
+    border-radius: 50%;
+    animation: s23; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes s23{  
+    0% { bottom: 0;}
+    
+    100%{ bottom: 590px; background-color:  red;  }
+}
+.s4{
+    width: 60px;
+    height: 60px;
+   right: 0;
+    top: 0;
+    background-color: yellow; 
+    position: absolute; 
+    border-radius: 50%;
+    animation: s24; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes s24{  
+    0% { top: 0;}
+    
+    100%{top: 590px; background-color: orangered;  }
+}
+.s5{
+    width: 110px;
+    height: 20px;
+   left: 0;
+    top: 290;
+    background-color: rgb(12, 235, 12); 
+    position: absolute; 
+    
+    animation: s25; 
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes s25 {
+    0%{   left: 0;}
+    
+    100%{  background-color: rgb(224, 19, 224); left:  1250px ;  }
+}
+.s6{
+    width: 110px;
+    height: 20px;
+   right: 0;
+    top: 310;
+    background-color: rgb(255, 230, 0); 
+    position: absolute; 
+    
+    animation: s26; 
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes s26 {
+    0%{   right: 0;}
+    
+  100%{  background-color: rgb(0, 217, 255); right:  1250px ;  }
+}
+.s7{
+    width: 20px;
+    height: 110px;
+   right: 660;
+    top: 0;
+    background-color: rgb(255, 0, 106); 
+    position: absolute; 
+    
+    animation: s27; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes s27{  
+    0% { top: 0;}
+    
+    100%{top: 545px; background-color: rgb(89, 0, 255);  }
+}
+.s8{
+    width: 20px;
+    height: 110px;
+   left: 660;
+    bottom: 0;
+    background-color: rgb(89, 0, 255); 
+    position: absolute; 
+    
+    animation: s28; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes s28{  
+    0% { bottom: 0;}
+    
+    100%{bottom: 545px; background-color: rgb(255, 0, 106);  }
+}
